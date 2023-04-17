@@ -6,6 +6,7 @@ import 'package:getx_section/screens/getx_counter/counter_home_screen.dart';
 import 'package:getx_section/screens/height_width/height_width_screen.dart';
 import 'package:getx_section/screens/home_page.dart';
 import 'package:get/get.dart';
+import 'package:getx_section/screens/image_picker_getx/imagepicker_home_screen.dart';
 import 'package:getx_section/screens/nevigation_routes/screen_one.dart';
 import 'package:getx_section/screens/nevigation_routes/screen_three.dart';
 import 'package:getx_section/screens/nevigation_routes/screen_two.dart';
@@ -31,7 +32,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home:  FavouriteHomeScreen(),
+      home:  ImagePickerHomeScreen(),
       // getPages: [
       //   GetPage(name: '/', page: ()=> ScreenOne()),
       //   GetPage(name: '/secondTwo', page: ()=> ScreenTwo()),
